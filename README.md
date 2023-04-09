@@ -1,4 +1,4 @@
-# initializing-different-types-of-variables- 
+# Initializing-different-types-of-variables- 
 
 A variable is a name of the memory location. It is used to store data. Its value can be changed, and it can be reused many times.
 It is a way to represent memory location through symbol so that it can be easily identified.
@@ -8,13 +8,13 @@ float b;
 char c;  
 Here, a, b, c are variables. The int, float, char are the data types.
 
-Rules for defining variables
+# Rules for defining variables
 A variable can have alphabets, digits, and underscore.
 A variable name can start with the alphabet, and underscore only. It can't start with a digit.
 No whitespace is allowed within the variable name.
 A variable name must not be any reserved word or keyword, e.g. int, float, etc.
 
-Types of Variables in C
+# Types of Variables in C
 There are many types of variables in c:
 
 local variable
@@ -37,7 +37,7 @@ A keyword is a reserved word. You cannot use it as a variable name, constant nam
 C Identifiers
 C identifiers represent the name in the C program, for example, variables, functions, arrays, structures, unions, labels, etc. An identifier can be composed of letters such as uppercase, lowercase letters, underscore, digits, but the starting letter should be either an alphabet or an underscore. If the identifier is not used in the external linkage, then it is called as an internal identifier. If the identifier is used in the external linkage, then it is called as an external identifier.
 
-Rules for constructing C identifiers
+# Rules for constructing C identifiers
 The first character of an identifier should be either an alphabet or an underscore, and then it can be followed by any of the character, digit, or underscore.
 It should not begin with any numerical digit.
 In identifiers, both uppercase and lowercase letters are distinct. Therefore, we can say that identifiers are case sensitive.
